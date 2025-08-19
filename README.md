@@ -12,17 +12,17 @@ version - 2.4.x
 4. Drop/move the unzipped files to directory '[Magento_Root]/app/code/Merlin/AutoInvoiceShipment'
 
 #Enable Extension:
-php bin/magento mo:en Merlin_AutoInvoiceShipment
-php bin/magento set:up
-php bin/magento s:d:c
-php bin/magento s:s:d
-php bin/magento c:c  
-php bin/magento c:f
+- php bin/magento mo:en Merlin_AutoInvoiceShipment
+- php bin/magento set:up
+- php bin/magento s:d:c
+- php bin/magento s:s:d
+- php bin/magento c:c  
+- php bin/magento c:f
 
 #Disable Extension:
-php bin/magento mo:dis Merlin_AutoInvoiceShipment
-php bin/magento set:up
-php bin/magento s:d:c
-php bin/magento s:s:d
-php bin/magento c:c 
-php bin/magento c:f
+- php bin/magento mo:dis Merlin_AutoInvoiceShipment
+- php bin/magento set:up
+- php bin/magento s:d:c
+- php bin/magento s:s:d
+- php bin/magento c:c 
+- php bin/magento c:f
