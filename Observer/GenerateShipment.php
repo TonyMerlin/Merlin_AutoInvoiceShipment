@@ -2,36 +2,14 @@
 /**
  * Class GenerateShipment
  *
- * @category Merlin
+ * @category Magento 2
  * @package  Merlin_AutoInvoiceShipment
- * @author   Merlin <magento@sparsh-technologies.com>
+ * @author   Merlin admin@sky-merlin.co.uk
  */
 namespace Merlin\AutoInvoiceShipment\Observer;
-
-/**
- * Class GenerateShipment
- *
- * @category Merlin
- * @package  Merlin_AutoInvoiceShipment
- * @author   Merlin
- */
 class GenerateShipment implements \Magento\Framework\Event\ObserverInterface
 {      
-    /**
-    * GenerateShipment constructor.
-    *
-    * @param Context                   $context              context
-    * @param OrderRepositoryInterface  $orderRepository      orderRepository
-    * @param OrderFactory              $convertOrderFactory  convertOrderFactory
-    * @param TransactionFactory        $transactionFactory   transactionFactory
-    * @param ShipmentSender            $shipmentSender       shipmentSender
-    * @param ManagerInterface          $messageManager       messageManager
-    * @param InvoiceSender             $invoiceSender        invoiceSender
-    * @param InvoiceService            $invoiceService       invoiceService
-    * @param ScopeConfigInterface      $scopeConfig          scopeConfig
-    * @param array                     $data                 data
-    */ 
-    public function __construct(
+        public function __construct(
         \Magento\Framework\View\Element\Template\Context $context,
         \Magento\Sales\Api\OrderRepositoryInterface $orderRepository,
         \Magento\Sales\Model\Convert\OrderFactory $convertOrderFactory,
