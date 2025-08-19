@@ -1,6 +1,6 @@
 {
     "name": "merlin/magento-2-autoinvoiceshipment",
-    "description": "Merlin Auto Invoice and Shipment Generate Extension for Magento 2",
+    "description": "Merlin's Auto Invoice and Shipment Generate Extension for Magento 2",
 	"type": "magento2-module",
     "version": "1.0.0",
     "license": "OSL-3.0",
